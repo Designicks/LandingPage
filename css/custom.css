@@ -312,7 +312,7 @@
     text-align: center;
     align-content: center;
     margin-right: 3em;
-    margin: 0 auto;
+     margin-bottom: 15px; 
 }
 .hovereffect .overlay {
     width: 95%;
