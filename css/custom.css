@@ -1,3 +1,6 @@
+*{
+
+}
 .container-fluid{
     padding: 0px;
 }
@@ -27,7 +30,8 @@
 }
 .topbar{
     padding: 0 12%;
-    background: #6AA2FF;
+   // background: #6AA2FF;
+    background: #6A91FF;
 }
 .topbar{
     padding-top: 5rem;
@@ -176,6 +180,7 @@
     //padding-left: 6em;
     //border: 1px solid;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 .portfolio_inner h2{
     text-align: center;
@@ -226,7 +231,7 @@
     text-align: center;
     transition: all 0.5s ease-in-out;
   }
-            @media only screen and (max-width: 450px){
+          @media only screen and (max-width: 450px){
              .portfolioContainer div img {
                 margin-left: 3em;
              }
@@ -277,3 +282,185 @@
     border: 1px solid #555;
     transition: all 0.6s;
   }
+
+  .clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/*<!-- trial team -->*/
+.team_inner{
+    margin: 0 auto !important;
+}
+.team_inner .row:first-child h2:first-child{
+    color: #888686;
+    margin: 0 auto;
+    padding: 40px;
+}
+.hovereffect {
+    width: 100%;
+    //width: 20em;
+    //height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    text-align: center;
+    align-content: center;
+    margin-right: 3em;
+    margin: 0 auto;
+}
+.hovereffect .overlay {
+    width: 95%;
+    //width: 200px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    padding: 0.4em;
+    height: 5.3em;
+    height: 10.4em;
+    background: #79FAC4;
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    visibility: hidden;
+
+}
+
+.hovereffect img {
+    margin-left: -1em;
+    display: block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(10,-10%,0);
+    transform: translate3d(0,-10%,0);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;     
+    position: relative;
+    font-size: 14px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    //float: left;
+    margin: 0px;
+    display: block;
+    border-radius: 8px;
+}
+.hovereffect .overlay p a:nth-child(4){
+    color: #ddd;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    background: rgba(0, 2, 0, 0.4);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect p.icon-links a {
+    display: inline-block;
+    text-align: center;
+    color: #3c4a50;
+    font-size: 1.2em;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.hovereffect .overlay p a:nth-child(4){
+    margin-left: 0px !important;
+}
+
+.hovereffect:hover p.icon-links a:hover,
+.hovereffect:hover p.icon-links a:focus {
+    color: #252d31;
+    color: #6A91FF;
+}
+.hovereffect:hover p.icon-links a:nth-child(4):hover,
+.hovereffect:hover p.icon-links a:nth-child(4):focus{
+    color: #ddd;
+}
+
+.hovereffect h2,
+.hovereffect p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,200%,0);
+    transform: translate3d(0,200%,0);
+    visibility: visible;
+        color: #fff;
+}
+
+.hovereffect p.icon-links a span:before {
+    display: inline-block;
+        border: 1px solid #fff;
+    padding: 8px 10px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h2,
+.hovereffect:hover p.icon-links a {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h2 {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.hovereffect .team_views{
+
+}
+.hovereffect:hover .overlay p:nth-child(2) {
+    transform: translate3d(0,30,0);
+}
+/*<!-- trial team -->
