@@ -357,7 +357,8 @@
     padding: 8px;
     background: rgba(0, 0, 0, 0.3);
     //float: left;
-    margin: 0px;
+    margin: 0px auto;
+    width: 60%;
     display: block;
     border-radius: 8px;
 }
