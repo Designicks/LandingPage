@@ -28,6 +28,16 @@
     color: #555;
     
 }
+.navbar-light .navbar-toggler {
+    color: none;
+    border: 0px;
+    border-color: none !important;
+}
+button:focus {
+    outline: 0px;
+    outline: none;
+}
+
 .topbar{
     padding: 0 12%;
    // background: #6AA2FF;
@@ -174,7 +184,7 @@
 /* =========-- portfolio starts here --========== */
 
 .portfolio{
-
+margin-top: 120px;
 }
 .portfolio_inner{
     //padding-left: 6em;
@@ -312,7 +322,7 @@
     text-align: center;
     align-content: center;
     margin-right: 3em;
-     margin-bottom: 15px; 
+    margin-bottom: 15px; 
 }
 .hovereffect .overlay {
     width: 95%;
