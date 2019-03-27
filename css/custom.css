@@ -226,10 +226,9 @@
     text-align: center;
     transition: all 0.5s ease-in-out;
   }
-          @media only screen (max-width: 450){
+            @media only screen and (max-width: 450px){
              .portfolioContainer div img {
-                margin: 0 auto;
-                text-align: center;
+                margin-left: 3em;
              }
           }
     .portfolioContainer div img:hover{
