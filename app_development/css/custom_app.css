@@ -1,0 +1,301 @@
+html {
+scroll-behavior: smooth;
+}
+.container-fluid{
+    padding: 0px;
+}
+.wrapper{
+    position: relative;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    //padding: 0 10%;
+    background: #6AA2FF;
+}
+
+.header nav{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.header nav .container img{
+    width: 120px;
+}
+.header nav .container #navbarResponsive ul li{
+    margin-right: 25px;
+}
+
+.header nav .container #navbarResponsive ul .nav-link{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.header nav .container #navbarResponsive ul li .nav-link:hover{
+    color: #555;
+}
+.navbar-light .navbar-toggler {
+    color: none;
+    border: 0px;
+    border-color: none !important;
+}
+button:focus {
+    outline: 0px;
+    outline: none;
+}
+
+/*home-header-area*/
+.home-header-area{
+    margin-bottom: 8em;
+  } 
+.home-bg-cover{
+    padding-top: 60px;
+    background-image: url("../images/home-banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-header-area .row{
+    margin-top: 2.5em;
+}
+.home-header-area .row .col_head{
+    margin-top: 8em;
+    
+}
+.home-header-area .row .col_head .home_head{
+    //width: 85%;
+    font-size: 3.9rem;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+.home-header-area .row .col_head p{
+    color: #777;
+}
+.home-head-image img{
+    margin-top: 5em;
+    margin-left: 1em;
+    padding-left: 5em;
+    float: left;
+    width: 19em !important;
+}
+/*home-header-area*/
+
+/* ----------- Start Counter Section ----------*/
+
+.counter_cover{
+    margin-bottom: 8em;
+}
+.counter{
+    padding: 2.5em;
+    box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
+}
+.counter .counter_box{
+    text-align: center;
+    padding:0em  1em;
+    border-right: 1px solid #ddd;
+}
+.counter .counter_box h1{
+    font-weight: 700;
+}
+.counter .counter_box p{
+    color: #000;
+    opacity: 0.6;   
+}
+
+.counter .counter_box:last-child{
+    border-right: 0px;   
+}
+
+/* ----------- End Counter Section ----------*/
+
+
+/* Procedure Starts */
+
+.procedure{
+    padding: 5% 12%;
+}
+.procedure_inner h2{
+    margin-bottom: 50px;
+    text-align: center; 
+    color: #888686;
+}
+.procedure_inner .row .col{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow:2px 5px #eee;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    padding:5px 20px;
+    position: relative;
+    box-shadow: 0 8px 26px 0 rgba(0,0,0,0.001), 0 6px 30px 0 rgba(0,0,0,0.10);
+    transition: all 0.3s ease-in-out;
+}
+.procedure_inner .row .col:hover{
+    background: #eee;
+    cursor: pointer;
+ 
+}
+.procedure_inner .row .col .indicator{
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+    background: #fff;
+    right:-32px;
+    z-index: 100;
+    top: 45%;
+    border: 1px solid #55555521;
+    transition: all 0.3s ease-in-out;
+}
+.procedure_inner .row .col .indicator i{
+    color: #555;
+    width: 25px;
+}
+.procedure_inner .row .col .indicator:hover{
+    background: #6AA2FF;
+
+}
+.procedure_inner .row .col .indicator:hover .indicator i{
+    color: #fff;
+}
+.procedure_inner .row .col img{
+    width: 60px;
+}
+.procedure_inner_col .img_cover{
+    padding: 20px;
+}
+.procedure_inner_col p{
+    padding: 8px;
+    color: #B2B8BA;
+    font-size: 14px;
+}
+/*===========-- Procedure Ends here --============ */
+
+/*===========-- Interface Starts here --============ */
+
+.interface{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+.interface>h2{
+    color: #555;
+    text-align: center;
+}
+.interface .row div img{
+    width:350px;
+    float: right;
+    margin-right:1em;
+}
+.interface .row{
+    margin:0px auto;
+}
+.interface .row .col{
+    padding: 2em;
+}
+.interface .row .col:nth-child(2){
+    padding-top: 13%; 
+}
+.interface .row .col h2{
+    margin-bottom: 1.2em;
+}
+.interface .row .col p{
+    margin-right: 2em;
+    margin-bottom: 2.5em;
+     color: #555;
+     font-size: 14px;
+}
+
+
+.interface .row .col2{
+    //padding: 1em 4em;
+    box-sizing: border-box;
+}
+.interface button{
+    border: 1px solid #6AA2FF;
+    background: none;
+    color: #6AA2FF;
+    margin:0px 10px 10px 0px;
+}
+.interface button span{
+    font-size: 24px;
+}
+.interface .row .col2 button i{
+    font-size: 30px;
+
+}
+/*===========-- Interface Ends here --============ */
+
+/*//common*/
+
+.buttons {
+    //padding: 20px 24px 8px;
+    //max-width: 225px;
+    //margin-right: 10px;
+    //border: 1px solid #dddddd;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+    color: #000 !important;
+    float: left;
+}
+.buttons i {
+    font-size: 44px;
+    padding-bottom: 20px;
+    color: #eeeeee;
+    margin: 0px auto;
+}
+.buttons a{
+ text-align: center;
+}
+.buttons p span {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}.buttons p {
+    //margin-bottom: 8px !important;
+    font-size: 14px;
+    line-height: 10px;
+}
+.buttons a,.buttons a:focus,.buttons a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+.buttons i{
+    color: #ddd;
+}
+.buttons a:hover i{
+    color: #2C73C0;
+     transition: all 0.3s ease-in-out;
+}
+.buttons a:active i,.buttons a:focus i{
+    color: #2C73C0;
+}
+
+.nav-tabs{
+    margin-top: -11.5em;
+}
+.nav-tabs .nav-item .nav-link p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-item .nav-link:hover *{
+    color: #2C73C0;
+}
+.nav-tabs .nav-item .nav-link i:hover *{
+    color: #2C73C0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active p,.nav-tabs .nav-link.active i{
+ color: #2C73C0;   
+}
+
+
+
+@media only screen and (max-width:996px){
+    .nav-tabs{
+        margin-top: -6em;
+    }
+}
