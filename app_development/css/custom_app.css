@@ -15,8 +15,8 @@ scroll-behavior: smooth;
 }
 
 .header nav{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    //padding-left: 0px !important;
+    //padding-right: 0px !important;
 }
 .header nav .container img{
     width: 120px;
@@ -58,6 +58,7 @@ button:focus {
 }
 .home-header-area .row .col_head{
     margin-top: 8em;
+    padding-left: 20px;
     
 }
 .home-header-area .row .col_head .home_head{
@@ -220,9 +221,38 @@ button:focus {
 }
 .interface .row .col2 button i{
     font-size: 30px;
-
 }
 /*===========-- Interface Ends here --============ */
+
+/*===========-- Portfolio Starts here --============ */
+.portfolio .row{
+    text-align: center;
+    //margin: 0 auto;
+    margin-top: 5em;
+
+}
+.portfolio div h1{
+    margin: 0 auto;
+    color: #555;
+    padding: 20px;
+}
+.portfolio div p{
+    color: #B2B8BA;
+    font-size: 14px;
+    margin: 0.3em 0px;
+    padding: 0px 2em;
+}
+.col_portfolio{
+
+}
+
+.col_portfolio img{
+    width: 12em;
+}
+
+/*===========-- Portfolio Ends here --============ */
+
+
 
 /*//common*/
 
@@ -298,4 +328,31 @@ button:focus {
     .nav-tabs{
         margin-top: -6em;
     }
+}
+
+@media only screen and (max-width: 601px){
+    .col_head{
+        margin-top: 5em !important;
+    }
+    .home-head-image img{
+        margin: 0px !important;
+        padding:10px 10px 0px 25px;
+        clear: both !important;
+        padding-top: 2em !important;
+    }
+    .counter .counter_box{
+        border-right: 0px !important;
+        border-bottom: 1px solid #ddd;
+    }
+     .counter .counter_box:last-child{
+        border-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 459px){
+     .nav-tabs .nav-item{
+        //width: 200px !important;
+     }
+     .nav-tabs .nav-item .nav-link p{
+        font-size: 0.8em !important;
+     }
 }
