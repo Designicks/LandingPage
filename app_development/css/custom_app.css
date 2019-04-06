@@ -562,7 +562,7 @@ footer{
 /*----------- MEDIA QURIES ------------*/
 
 @media only screen and (max-width:996px){
-    .nav-tabs{
+    .segment_top ul{
         margin-top: -6em;
     }
 }
