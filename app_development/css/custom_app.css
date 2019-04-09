@@ -534,8 +534,11 @@ button:focus {
     border-radius: 30px !important;
 }
 .recommended_blog .owl-prev span,.recommended_blog .owl-next span{
-    font-size: 30px;
-       border-radius: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.recommended_blog .owl-next:hover,.recommended_blog .owl-prev:hover{
+   background: #6AA2FF !important; 
 }
 
 .recommended_blog .owl-item.active.center:active .blog-content{
