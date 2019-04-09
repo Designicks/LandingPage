@@ -1,6 +1,9 @@
 html {
 scroll-behavior: smooth;
 }
+body{
+
+}
 .container-fluid{
     padding: 0px;
 }
@@ -82,11 +85,13 @@ button:focus {
 /* ----------- Start Counter Section ----------*/
 
 .counter_cover{
+     margin-top: 8em !important;
     margin-bottom: 8em;
 }
 .counter{
     padding: 2.5em;
     box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
+    background: #fff;
 }
 .counter .counter_box{
     text-align: center;
@@ -178,7 +183,7 @@ button:focus {
     padding-bottom: 2em;
 }
 .interface>h2{
-    color: #555;
+    color: #888686;
     text-align: center;
 }
 .interface .row div img{
@@ -252,8 +257,8 @@ button:focus {
 
 /*===========-- Portfolio Ends here --============ */
 
-/*===========-- Portfolio Ends here --============ */
-.pricing{
+/*===========-- Pricing Starts here --============ */
+/*.pricing{
     padding-bottom: 3em !important;
 }
 .pricing .row h1{
@@ -302,11 +307,11 @@ button:focus {
     //margin-top: -10px;
     margin-bottom: 20px;
 }
-/*.rate_box span:last-child{
+.rate_box span:last-child{
     font-size: 30px;
     font-weight: 700;
     margin-top: -10px;
-}*/
+}
 .rate_box p{
     left: 0;
     right: 0;
@@ -341,7 +346,7 @@ button:focus {
 /*.box_outer:hover .pricing .row h1{
     background: #6AA2FF;
     color: #fff;
-}*/
+}
 .box_outer:hover .rate_box sup,.box_outer:hover .rate_box span{
     color: #fff;
 }
@@ -352,10 +357,36 @@ button:focus {
 }
 .box_outer:hover{
     border-color: #6AA2FF;
+}*/
+/*===========-- Pricing Ends here --============ */
+
+/*===========-- GET_TO_KNOW Starts here --============ */
+.get_to_know_outer{
+background: -moz-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(106,162,255,1)), color-stop(43%, rgba(164,194,242,1)), color-stop(63%, rgba(186,207,242,1)), color-stop(79%, rgba(213,225,245,1)), color-stop(100%, rgba(239,242,247,1)));
+background: -webkit-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
+background: -o-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
+background: linear-gradient(to right, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
 }
-/*===========-- Portfolio Ends here --============ */
+.get_to_know{
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.get_to_know h3{
+    font-weight: 700;
+    padding: 1em 0;
+    color: #888686;
+    color: #000;
+}
+.get_to_know p{
+    color: #000;
+    padding:0 0 1em 0;
+}
 
 
+/*===========-- GET_TO_KNOW Ends here --============ */
 
 /*//common*/
 
@@ -412,6 +443,7 @@ button:focus {
 .segment_top ul{
     margin-top: -12em;
 }
+
 .nav-tabs .nav-item .nav-link p{
     color: #000;
     font-size: 20px;
@@ -471,34 +503,32 @@ button:focus {
 }
 .recommended_blog .blog_content{
     height: auto;
-    padding: 15px;
+    //padding: 15px;
+    margin-right: 10px;
     color:#1B6FCF;
-    background-color: #fff;
-    border-radius: 10px; 
+    //background-color: none;
+    border-radius: 5px; 
     //border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
 }
 
 .recommended_blog .blog_item img{
-    border-radius: 10px ;
-    width: 100%;
+    border-radius: 5px ;
+    width: 98%;
 }
 
 .recommended_blog .blog_item h3{
     padding: 0px;
     font-weight: 600;
     font-size: 30px;
-
 }
-.recommended_blog .owl-prev{
-    width: 5px !important;
-    font-size: 20px !important;
-    padding: 50px !important;
-}
-.recommended_blog .owl-next{
-    font-size: 20px !important;
+.recommended_blog .owl-next,.recommended_blog .owl-prev{
+    width: 30px !important;
+    border-radius: 30px !important;
 }
 .recommended_blog .owl-prev span,.recommended_blog .owl-next span{
-    width: 10px;
+    font-size: 30px;
+       border-radius: 30px;
 }
 
 .recommended_blog .owl-item.active.center:active .blog-content{
@@ -506,20 +536,60 @@ button:focus {
     color:#fff !important;
     cursor: pointer;  
 }
+.recommended_blog .owl-item:hover .blog_content{
+   -webkit-box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
+-moz-box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
+box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
+}
 .recommended_blog .owl-item.active:hover .blog_content{
-   background: #2a2a2b !important;
+   //background: #2a2a2b !important;
+   background: none !important;
     color:#fff !important;
     cursor: pointer;
-    background-image: url(../images/images.png) !important;
+    transform: scale(1.1);
+    //background-image: url(../images/images.png) !important;
     background-position: fixed !important;
     background-repeat: no-repeat !important;
     background-size:100% 100% !important;
     background-clip: initial  !important;
 }
+.owl-stage-outer{
+    padding: 3em;
+    //height: 600px !important;
+}
 
 
 /*Portfolio / blog styles ENDS here*/
+.category{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em;
+    text-align: center;
+}
 
+.category h1{
+     color: #888686;
+    margin-bottom: 2em;
+}
+.category h5{
+    //color: #777;
+}
+.category .row div .category_inner{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.category .row div .category_inner:hover{
+    cursor: pointer;
+    border-color: #6AA2FF;
+}
+.category img{
+    text-align: center;
+    width: 60px;
+    margin: 20px;
+}
 
 /* Footer styles Start here*/
 footer{
@@ -530,10 +600,9 @@ footer{
     padding-top: 4.5em;
     padding-bottom: 4em;
 }
-.footer div h4{
-    font-size: 24px;
+.footer div h5{
     margin-bottom: 1em;
-    color: #777;
+    //color: #777;
 }
 .footer p{
     font-size: 14px;
@@ -547,8 +616,9 @@ footer{
     color: #555;
 }
 .footer h6{
-    color: #777;
-    font-size: 16px; 
+    color: #000;
+    font-size: 14px;
+    padding: 1em 0; 
 }
 .footer form input{
     padding: 0.3em;
@@ -591,6 +661,9 @@ footer{
      }
      .nav-tabs .nav-item .nav-link p{
         font-size: 0.8em !important;
+     }
+     .segment_bottom .nav-link{
+        padding: 0rem 0.3rem; 
      }
 }
 
