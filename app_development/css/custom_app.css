@@ -17,6 +17,11 @@ body{
     background: #6AA2FF;
 }
 
+.get_a_quote {
+    background: #fff;
+    color: #000;
+    padding:0.4em 1em;
+}
 .header nav{
     //padding-left: 0px !important;
     //padding-right: 0px !important;
@@ -387,6 +392,7 @@ button:focus {
 }
 
 
+
 /*===========-- GET_TO_KNOW Ends here --============ */
 
 /*//common*/
@@ -583,10 +589,11 @@ box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
     margin-right: 5px;
     text-align: center;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 26px 0 rgba(0,0,0,0.001), 0 6px 30px 0 rgba(0,0,0,0.10);
 }
 .category .row div .category_inner:hover{
     cursor: pointer;
-    border-color: #6AA2FF;
+    /*border-color: #6AA2FF;*/
     -webkit-box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);
     -moz-box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);
     box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);    
