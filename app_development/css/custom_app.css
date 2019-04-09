@@ -116,7 +116,7 @@ button:focus {
 /* Procedure Starts */
 
 .procedure{
-    padding: 5% 12%;
+    padding: 5% 9%;
 }
 .procedure_inner h2{
     margin-bottom: 50px;
@@ -362,12 +362,7 @@ button:focus {
 
 /*===========-- GET_TO_KNOW Starts here --============ */
 .get_to_know_outer{
-background: -moz-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(106,162,255,1)), color-stop(43%, rgba(164,194,242,1)), color-stop(63%, rgba(186,207,242,1)), color-stop(79%, rgba(213,225,245,1)), color-stop(100%, rgba(239,242,247,1)));
-background: -webkit-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
-background: -o-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
-background: -ms-linear-gradient(left, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
-background: linear-gradient(to right, rgba(106,162,255,1) 0%, rgba(164,194,242,1) 43%, rgba(186,207,242,1) 63%, rgba(213,225,245,1) 79%, rgba(239,242,247,1) 100%);
+    background-color: #6AA2FF;
 }
 .get_to_know{
     padding: 2em;
@@ -383,6 +378,11 @@ background: linear-gradient(to right, rgba(106,162,255,1) 0%, rgba(164,194,242,1
 .get_to_know p{
     color: #000;
     padding:0 0 1em 0;
+}
+.get_to_know button{
+    background: #fff;
+    color: #000;
+    padding:0.4em 1em;
 }
 
 
@@ -580,10 +580,14 @@ box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 .category .row div .category_inner:hover{
     cursor: pointer;
     border-color: #6AA2FF;
+    -webkit-box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);
+    -moz-box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);
+    box-shadow: 5px 5px 20px -10px rgba(0,0,0,0.61);    
 }
 .category img{
     text-align: center;
