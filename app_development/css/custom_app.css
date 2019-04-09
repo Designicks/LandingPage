@@ -363,6 +363,7 @@ button:focus {
 /*===========-- GET_TO_KNOW Starts here --============ */
 .get_to_know_outer{
     background-color: #6AA2FF;
+    padding:0 0.5em;
 }
 .get_to_know{
     padding: 2em;
@@ -507,7 +508,7 @@ button:focus {
     margin-right: 10px;
     color:#1B6FCF;
     //background-color: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     //border: 1px solid #ddd;
     transition: all 0.3s ease-in-out;
 }
@@ -563,7 +564,7 @@ box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
 .category{
     margin-top: 5em;
     margin-bottom: 5em;
-    padding: 1em;
+    padding: 1.5em;
     text-align: center;
 }
 
@@ -578,7 +579,8 @@ box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.61);
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: 5px;
     text-align: center;
     transition: all 0.3s ease-in-out;
 }
