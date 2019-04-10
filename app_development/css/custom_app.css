@@ -66,7 +66,7 @@ button:focus {
 }
 .home-header-area .row .col_head{
     margin-top: 8em;
-    padding-left: 20px;
+    padding-left: 25px;
     
 }
 .home-header-area .row .col_head .home_head{
@@ -371,7 +371,7 @@ button:focus {
     padding:0 0.5em;
 }
 .get_to_know{
-    padding: 2em;
+    padding: 4em 2em;
     margin-top: 5em;
     margin-bottom: 5em;
 }
@@ -386,11 +386,12 @@ button:focus {
     padding:0 0 1em 0;
 }
 .get_to_know button{
+    font-weight: 600;
     background: #fff;
-    color: #000;
+    color: #777;
     padding:0.4em 1em;
+    border: 0px;
 }
-
 
 
 /*===========-- GET_TO_KNOW Ends here --============ */
@@ -443,6 +444,11 @@ button:focus {
     color: #2C73C0;
     border-bottom: 0px;
 }
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    /*outline: none !important;*/
+    box-shadow: none !important;
+}
 
 
 /*---------- SEGMENT TOP -----------*/
@@ -450,7 +456,6 @@ button:focus {
 .segment_top ul{
     margin-top: -12em;
 }
-
 .nav-tabs .nav-item .nav-link p{
     color: #000;
     font-size: 20px;
@@ -690,6 +695,32 @@ footer{
     .box_inner .rate_box{
         height: 14em;
     }
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+        border-radius: 10px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 
